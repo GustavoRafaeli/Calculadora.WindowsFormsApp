@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             txtCampo = new TextBox();
             lblSinal = new Label();
             btn1 = new Button();
@@ -71,6 +70,7 @@
             // btn1
             // 
             btn1.BackColor = Color.Maroon;
+            btn1.ForeColor = Color.White;
             btn1.Location = new Point(5, 51);
             btn1.Name = "btn1";
             btn1.Size = new Size(51, 46);
@@ -82,6 +82,7 @@
             // btn4
             // 
             btn4.BackColor = Color.Maroon;
+            btn4.ForeColor = Color.White;
             btn4.Location = new Point(5, 103);
             btn4.Name = "btn4";
             btn4.Size = new Size(51, 46);
@@ -93,6 +94,7 @@
             // btn3
             // 
             btn3.BackColor = Color.Maroon;
+            btn3.ForeColor = Color.White;
             btn3.Location = new Point(119, 51);
             btn3.Name = "btn3";
             btn3.Size = new Size(51, 46);
@@ -104,6 +106,7 @@
             // btn2
             // 
             btn2.BackColor = Color.Maroon;
+            btn2.ForeColor = Color.White;
             btn2.Location = new Point(62, 51);
             btn2.Name = "btn2";
             btn2.Size = new Size(51, 46);
@@ -137,6 +140,7 @@
             // btn6
             // 
             btn6.BackColor = Color.Maroon;
+            btn6.ForeColor = Color.White;
             btn6.Location = new Point(119, 103);
             btn6.Name = "btn6";
             btn6.Size = new Size(51, 46);
@@ -148,6 +152,7 @@
             // btn7
             // 
             btn7.BackColor = Color.Maroon;
+            btn7.ForeColor = Color.White;
             btn7.Location = new Point(5, 155);
             btn7.Name = "btn7";
             btn7.Size = new Size(51, 46);
@@ -159,6 +164,7 @@
             // btn8
             // 
             btn8.BackColor = Color.Maroon;
+            btn8.ForeColor = Color.White;
             btn8.Location = new Point(62, 155);
             btn8.Name = "btn8";
             btn8.Size = new Size(51, 46);
@@ -170,6 +176,7 @@
             // btn5
             // 
             btn5.BackColor = Color.Maroon;
+            btn5.ForeColor = Color.White;
             btn5.Location = new Point(62, 103);
             btn5.Name = "btn5";
             btn5.Size = new Size(51, 46);
@@ -180,7 +187,7 @@
             // 
             // btnIgual
             // 
-            btnIgual.BackColor = Color.FromArgb(255, 128, 128);
+            btnIgual.BackColor = Color.Silver;
             btnIgual.Location = new Point(233, 155);
             btnIgual.Name = "btnIgual";
             btnIgual.Size = new Size(51, 98);
@@ -192,6 +199,7 @@
             // btn9
             // 
             btn9.BackColor = Color.Maroon;
+            btn9.ForeColor = Color.White;
             btn9.Location = new Point(119, 155);
             btn9.Name = "btn9";
             btn9.Size = new Size(51, 46);
@@ -202,7 +210,7 @@
             // 
             // btnDiv
             // 
-            btnDiv.BackColor = Color.FromArgb(255, 128, 128);
+            btnDiv.BackColor = Color.Silver;
             btnDiv.Location = new Point(176, 155);
             btnDiv.Name = "btnDiv";
             btnDiv.Size = new Size(51, 46);
@@ -214,6 +222,7 @@
             // btn0
             // 
             btn0.BackColor = Color.Maroon;
+            btn0.ForeColor = Color.White;
             btn0.Location = new Point(5, 207);
             btn0.Name = "btn0";
             btn0.Size = new Size(108, 46);
@@ -224,7 +233,7 @@
             // 
             // btnMenos
             // 
-            btnMenos.BackColor = Color.FromArgb(255, 128, 128);
+            btnMenos.BackColor = Color.Silver;
             btnMenos.Location = new Point(176, 51);
             btnMenos.Name = "btnMenos";
             btnMenos.Size = new Size(51, 46);
@@ -236,6 +245,7 @@
             // btnPonto
             // 
             btnPonto.BackColor = Color.Maroon;
+            btnPonto.ForeColor = Color.White;
             btnPonto.Location = new Point(119, 207);
             btnPonto.Name = "btnPonto";
             btnPonto.Size = new Size(51, 46);
@@ -246,7 +256,7 @@
             // 
             // btnMult
             // 
-            btnMult.BackColor = Color.FromArgb(255, 128, 128);
+            btnMult.BackColor = Color.Silver;
             btnMult.Location = new Point(176, 207);
             btnMult.Name = "btnMult";
             btnMult.Size = new Size(51, 46);
@@ -257,7 +267,7 @@
             // 
             // btnMais
             // 
-            btnMais.BackColor = Color.FromArgb(255, 128, 128);
+            btnMais.BackColor = Color.Silver;
             btnMais.Location = new Point(176, 103);
             btnMais.Name = "btnMais";
             btnMais.Size = new Size(51, 46);
@@ -270,8 +280,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Maroon;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.FromArgb(64, 64, 64);
             ClientSize = new Size(289, 258);
             Controls.Add(btnMenos);
             Controls.Add(btnPonto);
